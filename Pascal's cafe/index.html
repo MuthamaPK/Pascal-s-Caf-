@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pascal's Cafe website</title>
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="file.css" />
+</head>
+
+<body>
+    <!-- Header section starts -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="logo.png" alt="Pascal's Cafe Logo" />
+        </a>
+        
+        <label for="toggler"><i class="ri-menu-line"></i></label>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#product">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#javascript:void(0);" class="icon" id=" icon">
+                <i class = "fa fa-bars"></i>
+            </a>
+            <div class="input__container">
+                <div class="shadow__input"></div>
+                    <button class="input__button__shadow">
+                  <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20px" width="20px">
+                    <path d="M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z" fill-rule="evenodd" fill="#17202A"></path>
+                  </svg>
+                    </button>
+                <input type="text" name="text" class="input__search" placeholder="What do you want to search?">
+              </div>
+        
+        </nav>
+    </header>
+    <!-- Header section ends -->
+    <!-- Home section starts -->
+    <section class="home" id="home">
+        <h3 class="heading">☕𝕻𝖆𝖘𝖈𝖆𝖑'𝖘 𝖈𝖆𝖋𝖊☕ <br> <br>☕home☕</h3>
+        <div class="row">
+            <div class="image">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Welcome to our cafe</h3>
+                <p>Welcome to our cozy cafe! We are thrilled to have you here and can't wait to serve you with our
+                    delicious coffee, tea, and snacks. Sit back, relax, and enjoy the warm ambiance as you sip on your
+                    favorite beverage. Our team is dedicated to providing you with the best service possible, so please
+                    don't hesitate to let us know if you need anything. Thank you for choosing our cafe, and we hope you
+                    have a wonderful experience!</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="cart1.jpg" alt="Cart Item 1" />
+                <div class="content">
+                    <h3>Cart Item 01</h3>
+                    <div class="price">KES. 250.00/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="cart2.jpg" alt="Cart Item 2" />
+                <div class="content">
+                    <h3>Cart Item 02</h3>
+                    <div class="price">KES. 150.00/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="cart3.jpg" alt="Cart Item 3" />
+                <div class="content">
+                    <h3>Cart Item 03</h3>
+                    <div class="price">KES. 650.00/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="cart4.jpg" alt="Cart Item 4" />
+                <div class="content">
+                    <h3>Cart Item 04</h3>
+                    <div class="price">KES. 450.00/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Checkout Now</a>
+        </div>
+    </section>
+    <!-- Home section ends -->
+
+    <!--about section starts-->
+    <section class="about" id="about">
+        <h2 class="heading"><span>☕about</span> us☕</h2>
+        <div class="row">
+            <div class="image">
+                <img src="about.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>What makes out breakfast special?</h3>
+                <p>At our cafe, we strive to create a welcoming environment where people can gather, connect, and enjoy
+                    delicious food and beverages. Our passion for coffee and tea is reflected in our carefully selected
+                    menu, which features a variety of handcrafted drinks made with premium ingredients.
+
+                    We take pride in our commitment to sustainability, using environmentally friendly products and
+                    working with local suppliers whenever possible. We believe in giving back to our community and
+                    support various charitable organizations through fundraising and donations.
+
+                    Our team is dedicated to providing exceptional customer service, and we are always striving to
+                    improve and exceed expectations. We believe that the little details matter, from the quality of our
+                    drinks to the warmth of our welcome, and we strive to make every visit to our cafe a memorable one.
+
+                    Thank you for choosing our cafe, and we look forward to serving you soon!</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+
+        <!--about section ends-->
+        <!--menu section starts-->
+        <section class="menu" id="menu">
+            <h2 class="heading">☕our <span>menu☕</span></h2>
+            <div class="box-container">
+                <div class="box">
+                    <img src="menu-1.jpg" alt="">
+                    <h3>Coffee latte</h3>
+                    <p>Rich, creamy espresso with steamed milk, perfect for cozy mornings.</p>
+                    <div class="price">KES. 350 <span>400</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="menu-2.jpg" alt="">
+                    <h3>Coffee cupcakes</h3>
+                    <p>Moist espresso-infused cake topped with creamy coffee buttercream frosting.</p>
+                    <div class="price">KES. 250 <span>350</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="menu-3.jpg" alt="">
+                    <h3>donuts</h3>
+                    <p>Delicious donuts with a variety of toppings and fillings.</p>
+                    <div class="price">KES. 350 <span>400</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="menu-4.jpg" alt="">
+                    <h3>Croissant</h3>
+                    <p>Flaky, buttery, crescent-shaped pastry perfection; a French delicacy.</p>
+                    <div class="price">KES. 650 <span>800</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="menu-5.jpg" alt="">
+                    <h3>macarons</h3>
+                    <p>Elegant French cookies with a delicate meringue shell and filling.</p>
+                    <div class="price">KES. 200 <span>300</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="menu-6.jpg" alt="">
+                    <h3>breakfast pizza</h3>
+                    <p>Delicious pizza with a variety of toppings and fillings.</p>
+                    <div class="price">KES. 1750 <span>2000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="menu-7.jpg" alt="">
+                    <h3>Bread sandwich</h3>
+                    <p>Freshly baked bread wrapped around savory fillings, a satisfying delight.</p>
+                    <div class="price">KES. 150 <span>200</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="menu-8.jpg" alt="">
+                    <h3>iced coffee</h3>
+                    <p>Chilled, bold, and refreshing java jolt for any time.</p>
+                    <div class="price">KES. 450 <span>600</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </section>
+        <!--menu section ends-->
+        <!--product section starts-->
+        <section class="product" id="product">
+            <h2 class="heading">☕our <span>products☕</span></h2>
+            <div class="box-container">
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="product-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Home made latte</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">kes 300 <span>400</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="product-2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Najjar coffee</h3>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-alt"></i>
+                            </div>
+                            <div class="price">kes 700 <span>900</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="product-3.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Pure ethiopian black coffee</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">kes 1000 <span>1350</span></div>
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="box-container">
+                            <div class="box">
+                                <div class="icons">
+                                    <a href="#" class="fas fa-shopping-cart"></a>
+                                    <a href="#" class="fas fa-heart"></a>
+                                    <a href="#" class="fas fa-eye"></a>
+                                </div>
+                                <div class="image">
+                                    <img src="product-4.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>MacCoffee 3-in-1</h3>
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="price">kes 600 <span>750</span></div>
+                                    <a href="#" class="btn">add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+        <!--product section ends-->
+        <!--review section starts-->
+        <section class="review" id="review">
+            <h2 class="heading">customer's <span>review</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <img src="quote-1.jpg" alt="" class="quote">
+                        <p>I really like the atmosphere, good coffee, and nice interior. This is a good place to study
+                            or chill with friends. The drinks and foods were all tasty and worthwhile. If you’re up for
+                            a fresh place with beautiful architecture then this is a must to visit.</p>
+                        <img src="pic-1" class="user" alt="">
+                        <h3>Kiplimo Julius</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="quote-2.jpg" alt="" class="quote">
+                        <p>This place is amazing! They offered the best coffee and showed the best attitude to its
+                            costumers. Internet connection is very fast and is unlimited as well. This place is indeed
+                            perfect for studying and chilling out. It was very quiet and air-conditioned. I just want to
+                            keep coming back to this place. Thank you!</p>
+                        <img src="pic-2.jpg" class="user" alt="">
+                        <h3>Titus Kioko</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+        </section>
+
+
+        <!--review sectiona ends-->
+        <!--contacts section starts-->
+
+        <section class="contacts" id="contacts">
+            <h2 class="contacts"> <span>contacts</span>us</h2>
+            <div class="row">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8578418925217!2d36.8032074!3d-1.2572266999999937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f176d5245a81d%3A0x6980c9c6d698d244!2sWestgate%20Shopping%20Mall!5e0!3m2!1sen!2ske!4v1681452726704!5m2!1sen!2ske"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <section class="get-in-touch">
+                    <h2>Get in Touch</h2>
+                    <form action="">
+                        <div class="input-box">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Write your message here"
+                                required></textarea>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" value="Send Message">
+                        </div>
+                    </form>
+                </section>
+
+            </div>
+        </section>
+        <!--contacts section ends-->
+        <!--footer section starts-->
+        <section class="footer">
+            <div vlass="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin-in"></a>
+
+
+            </div>
+            <div class="links">
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">services</a>
+                <a href="#">review</a>
+                <a href="#">contacts</a>
+
+            </div>
+            <div class="credit">created by <span>Sir.Pascal Muthama </span>all rights reserved.</div>
+        </section>
+
+        <!--footer section ends-->
+        <!-- Custom JS file link -->
+        <script src="text.js" rel="noopener"></script>
+</body>
+
+</html>
